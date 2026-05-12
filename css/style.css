@@ -10,8 +10,8 @@ html {
 
 body {
   font-family: "Noto Sans KR", "Pretendard", Arial, sans-serif;
-  background: #f8fafc;
-  color: #1e293b;
+  background: #e2dfdc;
+  color: #e7e4df;
   line-height: 1.7;
 }
 
@@ -29,9 +29,9 @@ header {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(143, 159, 175, 0.88);
   backdrop-filter: blur(14px);
-  border-bottom: 1px solid #e2e8f0;
+  border-bottom: 1px solid #635e16;
 }
 
 .nav {
@@ -61,14 +61,14 @@ header {
 
 .menu a:hover,
 .menu a.active {
-  color: #0e7490;
+  color: #900e65;
 }
 
 .hero {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(135deg, #0e7490, #1e3a8a);
-  color: white;
+  background: linear-gradient(135deg, #bbc4c7, #f09307);
+  color: rgb(0, 0, 0);
 }
 
 .hero::before {
@@ -95,7 +95,7 @@ header {
 }
 
 .eyebrow {
-  color: #a5f3fc;
+  color: #f8f408;
   text-transform: uppercase;
   letter-spacing: 0.3em;
   font-size: 14px;
